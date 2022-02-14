@@ -4,6 +4,7 @@
   [src]="img" alt="random"
   *ngIf="img; else elseImg"
 >
+<h3>{{counter}}</h3>
 <ng-template #elseImg>
   <img width="200px" src="https://www.w3schools.com/howto/img_avatar.png" alt="default">
 </ng-template>
