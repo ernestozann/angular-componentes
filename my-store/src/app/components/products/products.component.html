@@ -2,6 +2,11 @@
   Productos en tu carrito {{myShoppingCart.length}}
 </p>
 <p>Total de compra ${{total}}</p>
+<p>today: {{today | date}}</p>
+<p>date: {{date | date: 'short'}}</p>
+<p>
+  {{'ESCrito mAL EN el HtML' | uppercase}}
+</p>
 <div class="products--grid">
   <app-product
     [product]="product"
