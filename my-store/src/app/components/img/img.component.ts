@@ -1,13 +1,4 @@
-import { Component,
-  OnInit,
-  Input,
-  Output,
-  EventEmitter,
-  OnChanges,
-  AfterViewInit,
-  OnDestroy,
-  SimpleChanges,
-} from '@angular/core';
+import { Component,OnInit,Input,Output,EventEmitter,OnChanges,AfterViewInit,OnDestroy,SimpleChanges} from '@angular/core';
 
 @Component({
   selector: 'app-img',
