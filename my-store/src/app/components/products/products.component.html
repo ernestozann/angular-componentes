@@ -1,12 +1,12 @@
+<p>Productos en tu carrito {{ myShoppingCart.length }}</p>
+<p>Total de compra ${{ total }}</p>
+<p>today: {{ today | date }}</p>
+<p>date: {{ date | date: "short" }}</p>
+<p>timeAgo: {{ date | timeAgo }}</p>
 <p>
-  Productos en tu carrito {{myShoppingCart.length}}
+  {{ "ESCrito mAL EN el HtML" | uppercase }}
 </p>
-<p>Total de compra ${{total}}</p>
-<p>today: {{today | date}}</p>
-<p>date: {{date | date: 'short'}}</p>
-<p>
-  {{'ESCrito mAL EN el HtML' | uppercase}}
-</p>
+<p>{{ "lmth le ne sever la otircse otxet" | reverse }}</p>
 <div class="products--grid">
   <app-product
     [product]="product"
